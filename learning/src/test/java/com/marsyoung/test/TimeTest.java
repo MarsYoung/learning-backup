@@ -1,4 +1,4 @@
-package src.main.java;
+package com.marsyoung.test;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

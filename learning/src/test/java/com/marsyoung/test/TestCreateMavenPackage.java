@@ -1,7 +1,7 @@
 /**
  * 
  */
-package src.main.java;
+package com.marsyoung.test;
 
 /**
  * @author mshootingstar
