@@ -82,6 +82,7 @@ public class HttpRequest {
 			// 设置通用的请求属性
 			conn.setRequestProperty("accept", "*/*");
 			conn.setRequestProperty("connection", "Keep-Alive");
+			conn.setRequestProperty("Content-type","text/xml");//有个现象，如果这句话设置了post的ContentType那么在struts中就无法获取到postUrl中所带的参数。
 			conn.setRequestProperty("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)");
 			// 发送POST请求必须设置如下两行
 			conn.setDoOutput(true);
