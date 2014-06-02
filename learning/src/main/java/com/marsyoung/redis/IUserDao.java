@@ -1,4 +1,4 @@
-package com.marsyoung.dao.redis;
+package com.marsyoung.redis;
 
 import java.util.List;
 

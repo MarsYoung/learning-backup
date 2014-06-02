@@ -6,6 +6,7 @@ import java.util.List;
 
 
 
+
 import junit.framework.Assert;  
 
 import org.junit.Test;
@@ -13,8 +14,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;  
 import org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests;  
 
-import com.marsyoung.dao.redis.IUserDao;
 import com.marsyoung.entity.User;
+import com.marsyoung.redis.IUserDao;
   
 /**  
  * 测试 

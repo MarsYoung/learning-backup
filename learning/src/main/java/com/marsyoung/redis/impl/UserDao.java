@@ -1,4 +1,4 @@
-package com.marsyoung.dao.redis.impl;
+package com.marsyoung.redis.impl;
 
 import java.util.ArrayList;  
 import java.util.List;  
@@ -9,9 +9,9 @@ import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.serializer.RedisSerializer;  
 import org.springframework.util.Assert;  
 
-import com.marsyoung.dao.redis.AbstractBaseRedisDao;
-import com.marsyoung.dao.redis.IUserDao;
 import com.marsyoung.entity.User;
+import com.marsyoung.redis.AbstractBaseRedisDao;
+import com.marsyoung.redis.IUserDao;
   
 public class UserDao extends AbstractBaseRedisDao<String, User> implements IUserDao {  
   

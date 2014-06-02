@@ -1,4 +1,4 @@
-package com.marsyoung.dao.redis;
+package com.marsyoung.redis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
