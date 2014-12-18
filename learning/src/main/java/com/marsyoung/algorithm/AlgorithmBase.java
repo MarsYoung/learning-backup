@@ -11,8 +11,8 @@ public class AlgorithmBase {
 	
 	/**
 	 * 用来生成数据
-	 * @param n
-	 * @param max
+	 * @param n  生成的list包含元素个数
+	 * @param max  最大值
 	 */
 	public void initDisorderList(int n,int max){
 		disorderList=new ArrayList<Integer>();
