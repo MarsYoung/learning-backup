@@ -11,7 +11,7 @@ public class Singleton1 {
 	private Singleton1() {
 	};
 
-	public static Singleton1 getInsance() {
+	public static Singleton1 getInstance() {
 		if (instance == null) {
 			instance = new Singleton1();
 		}
